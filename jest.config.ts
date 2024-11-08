@@ -5,9 +5,6 @@ const config: Config.InitialOptions = {
   testEnvironment:'node',
   verbose: true,
   collectCoverage:true,
-  transform: {
-    "^.+.tsx?$": ["ts-jest",{}],
-  },
 };
 
 export default config;
