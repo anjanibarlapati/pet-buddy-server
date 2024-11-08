@@ -33,5 +33,5 @@ jobs:
         run: npm install
 
       - name: Run Tests
-        run: npm test
+        run: npm run test -- --watchAll=false   
           
